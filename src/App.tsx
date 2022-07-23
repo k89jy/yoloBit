@@ -1,8 +1,8 @@
 import React from 'react';
+import Modal from 'react-modal';
+
 function App() {
-  return (
-    <div>Hello world@</div>
-  );
+    return <></>;
 }
 
 export default App;
