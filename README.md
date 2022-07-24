@@ -1,12 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+## 업비트 클론 프로젝트
 ### `yarn start`
 
 Runs the app in the development mode.\
@@ -55,4 +47,5 @@ customize it when you are ready for it.
 
 ## Learn More
 
-##업비트 클로 #Yolo bit
+
+## Yolo bit
