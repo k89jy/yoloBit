@@ -1,10 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-const Button = styled.button`
-    color: red;
-    border: 2px solod white;
-`;
 
 const Warning = styled.img`
     width: 100%;
