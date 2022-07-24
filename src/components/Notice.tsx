@@ -35,7 +35,7 @@ const WarningTodayNotSeen = styled.span`
     float: right;
 `;
 
-function Notice(): JSX.Element {
+function Notice({ onClickCloseModal }): JSX.Element {
     const upBitWarningUrl = '/service_center/notice?id=2677';
 
     return (
@@ -48,7 +48,9 @@ function Notice(): JSX.Element {
                     <Warning24HourClose>
                         오늘 하루동안 보지않기
                     </Warning24HourClose>
-                    <WarningTodayNotSeen>닫기</WarningTodayNotSeen>
+                    <WarningTodayNotSeen onClick={onClickCloseModal}>
+                        닫기
+                    </WarningTodayNotSeen>
                 </WarningBottomBorder>
             </WarningWrapper>
         </>
