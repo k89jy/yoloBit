@@ -6,14 +6,14 @@ const Button = styled.button`
     border: 2px solod white;
 `;
 
-function Notice() {
+function Notice(): JSX.Element {
     function alert() {
         window.alert('hello world');
     }
     return (
-        <div>
+        <>
             <Button onClick={() => alert()}></Button>
-        </div>
+        </>
     );
 }
 
