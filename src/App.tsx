@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import ReactModal from 'react-modal';
+import React from 'react';
 import Home from './components/Home';
+import './Locales/i18n';
 
 function App(): JSX.Element {
     return (

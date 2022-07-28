@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-
+import { useTranslation } from 'react-i18next';
+import { Languages, languages } from '../Locales/i18n';
 const Warning = styled.img`
     width: 100%;
 `;
@@ -38,6 +39,7 @@ const WarningTodayNotSeen = styled.span`
 function Notice({ onClickCloseModal }): JSX.Element {
     const upBitWarningUrl = '/service_center/notice?id=2677';
 
+    const { t, i18n } = useTranslation();
     return (
         <>
             <WarningWrapper>
@@ -46,10 +48,10 @@ function Notice({ onClickCloseModal }): JSX.Element {
                 </WarningLink>
                 <WarningBottomBorder>
                     <Warning24HourClose>
-                        오늘 하루동안 보지않기
+                        {t('notice_not_seen_today')}
                     </Warning24HourClose>
                     <WarningTodayNotSeen onClick={onClickCloseModal}>
-                        닫기
+                        {t('notice_close_today')}
                     </WarningTodayNotSeen>
                 </WarningBottomBorder>
             </WarningWrapper>
