@@ -6411,6 +6411,11 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
+open-color@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/open-color/-/open-color-1.9.1.tgz#a6e6328f60eff7aa60e3e8fcfa50f53ff3eece35"
+  integrity sha512-vCseG/EQ6/RcvxhUcGJiHViOgrtz4x0XbZepXvKik66TMGkvbmjeJrKFyBEx6daG5rNyyd14zYXhz0hZVwQFOw==
+
 open@^8.0.9, open@^8.4.0:
   version "8.4.0"
   resolved "https://registry.yarnpkg.com/open/-/open-8.4.0.tgz#345321ae18f8138f82565a910fdc6b39e8c244f8"
@@ -8237,6 +8242,11 @@ style-loader@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-3.3.1.tgz#057dfa6b3d4d7c7064462830f9113ed417d38575"
   integrity sha512-GPcQ+LDJbrcxHORTRes6Jy2sfvK2kS6hpSfI/fXhPt+spVzxF6LJ1dHLN9zIGmVaaP044YKaIatFaufENRiDoQ==
+
+style-utils@^0.3.8:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/style-utils/-/style-utils-0.3.8.tgz#6ba4271bcc766dee4730bd51b3ef2552908dc111"
+  integrity sha512-RmGftIhY4tqtD1ERwKsVEDlt/M6UyxN/rcr95UmlooWmhtL0RwVUYJkpo1kSx3ppd9/JZzbknhy742zbMAawjQ==
 
 styled-components@^5.3.5:
   version "5.3.5"
